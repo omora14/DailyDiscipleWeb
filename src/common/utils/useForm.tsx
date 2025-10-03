@@ -26,7 +26,6 @@ export const useForm = (
     const validationErrors = validate(values);
     setErrors(validationErrors);
 
-    // Only submit if no validation errors
     if (Object.values(validationErrors).every((err) => !err)) {
       try {
         const response = await fetch(apiUrl, {
@@ -41,7 +40,6 @@ export const useForm = (
             description: "There was an error sending your message. Please try again later.",
           });
         } else {
-          // Clear the form on success
           setValues({ ...initialValues });
           setErrors({});
 

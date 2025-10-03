@@ -11,7 +11,7 @@ import TextArea from "../../common/TextArea";
 import { ContactContainer, FormGroup, Span, ButtonContainer } from "./styles";
 
 const Contact = ({ title, content, id, t }: ContactProps) => {
-  const apiUrl = "http://localhost:3000/contact";
+  const apiUrl = "https://dailydiscipleweb.onrender.com/contact";
   const { values, errors, handleChange, handleSubmit } = useForm(validate, apiUrl);
 
   const ValidationType = ({ type }: ValidationTypeProps) => {
