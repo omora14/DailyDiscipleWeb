@@ -1,83 +1,52 @@
 # Daily Disciple Web
 
-![Daily Disciple Logo](public/img/svg/logo.svg)
+Daily Disciple Web is a simple, interactive web app designed to help users set goals, create plans, and track daily progress. The app includes a contact form that allows users to send messages, with validation to ensure proper input. It combines a React frontend with a Node/Express backend for handling form submissions.
 
-Daily Disciple is a web application designed to help users set spiritual and personal goals, create structured plans, and stay consistent with daily progress. The app integrates to-do lists, messaging, and calendar support to guide users toward meaningful growth.
+## Instructions for Build and Use
 
-> **Note:** This project is currently under development. We're working on finalizing the product and aim to have a fully functional version by the end of the year.
+**Steps to build and/or run the software:**
 
----
+1. Clone the repository:  
+   `git clone https://github.com/omora14/DailyDiscipleWeb.git`
+2. Install dependencies for both frontend and backend:  
+   `npm install`
+3. Start the backend server:  
+   `npm run start:server`
+4. Start the frontend:  
+   `npm start`
 
-## Table of Contents
+**Instructions for using the software:**
 
-- [Features](#features)
-- [Demo](#demo)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [Contact](#contact)
+1. Open the app in your browser at `http://localhost:3000` (or the deployed URL).
+2. Navigate through the homepage to learn about Daily Disciple.
+3. Use the Contact Form to send a message by entering your name, email, and message. Validation ensures emails are formatted correctly and messages are at least 5 words.
+4. After submitting, a notification will confirm whether your message was successfully sent.
 
----
+## Development Environment
 
-## Features
+To recreate the development environment, you need the following software and/or libraries with the specified versions:
 
-- **Goal Setting:** Easily create personal and spiritual goals.
-- **Task Management:** Add tasks and track your daily progress.
-- **Calendar Integration:** Plan your days with a built-in calendar view.
-- **Contact Form:** Reach out to the team directly from the app.
-- **Multi-language Support:** Supports English and Spanish with i18n.
-- **Notifications:** Receive clear and user-friendly messages for actions like form submissions.
+- Node.js 18.x or later
+- npm 9.x or later
+- React 18.x
+- TypeScript 5.x
+- Ant Design 4.x
+- Express 5.x
+- Styled-components 5.x
 
----
+## Useful Websites to Learn More
 
-## Demo
+I found these websites useful in developing this software:
 
-Currently, the app is in development. Once deployed, you’ll be able to access it online. For now, you can run it locally.
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [Node.js Documentation](https://nodejs.org/en/docs/)
+- [Ant Design Docs](https://ant.design/docs/react/introduce)
+- [Styled Components](https://styled-components.com/docs)
 
----
+## Future Work
 
-## Tech Stack
+The following items I plan to fix, improve, and/or add to this project in the future:
 
-- **Frontend:** React, TypeScript, Ant Design, Styled Components
-- **Backend:** Node.js, Express, Nodemailer
-- **Internationalization:** i18next
-- **State Management:** React Hooks (`useState`, `useForm` custom hook)
-- **Notifications:** Ant Design notification system
-- **Deployment (planned):** Render, GitHub Pages or similar
-
----
-
-## Getting Started
-
-Follow these steps to run the project locally:
-
-### Prerequisites
-
-- Node.js (v18+ recommended)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/omora14/DailyDiscipleWeb.git
-```
-
-## Folder Structure
-
-│
-├─ public/ # Static assets (images, fonts, icons)
-├─ server/ # Express backend server
-│ └─ server.ts
-├─ src/ # React frontend
-│ ├─ components/ # Reusable UI components
-│ ├─ common/ # Shared components, hooks, utils
-│ ├─ content/ # JSON content for app sections
-│ ├─ locales/ # Translation files
-│ ├─ pages/ # React pages
-│ └─ router/ # Routing configuration
-├─ package.json
-├─ tsconfig.json
-└─ README.md
+- [ ] Deploy backend and frontend together on Render or another hosting service
+- [ ] Improve form submission design and notifications
+- [ ] Add user authentication and profiles
