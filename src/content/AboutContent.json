@@ -1,0 +1,16 @@
+{
+  "title": "Grow with clarity, live with purpose",
+  "text": "Daily Disciple is your personal guide to setting intentional goals, building actionable plans, and staying consistent every day. With a smart calendar and simple task management, it helps you focus on what matters most and see real progress over time.",
+  "section": [
+    {
+      "title": "Set purposeful goals",
+      "content": "Define meaningful short- and long-term goals that align with your values. Daily Disciple gives you the clarity to know where you’re headed and why.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Measure and celebrate progress",
+      "content": "Visualize your growth with progress tracking and milestones. Reflect on your journey, adjust when needed, and celebrate each step forward.",
+      "icon": "notes.svg"
+    }
+  ]
+}
